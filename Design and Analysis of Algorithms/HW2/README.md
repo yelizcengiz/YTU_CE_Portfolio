@@ -11,7 +11,7 @@ The solution is implemented in **C** and demonstrates systematic search and cons
 ### 1. Capacity Constraint
 Each rack has a maximum power capacity `C`:
 
-    **Σ P(servers in rack) ≤ C**
+    Σ P(servers in rack) ≤ C
 
 ---
 
@@ -19,7 +19,7 @@ Each rack has a maximum power capacity `C`:
 For each rack, the ratio of total heat generation to total power consumption
 must not exceed the cooling efficiency threshold `K`:
 
-    **(Σ H(servers in rack)) / (Σ P(servers in rack)) ≤ K**
+    (Σ H(servers in rack)) / (Σ P(servers in rack)) ≤ K
     
 ---
 
